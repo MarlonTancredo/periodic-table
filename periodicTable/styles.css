@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 2px;
+  padding-bottom: 1px;
+  width: 100%;
+}
+
+/* Bottom table*/
+.bottonContainer {
+  margin-top: 1rem;
+}
+
+.box {
+  border: 1px solid #000000;
+  width: 5%;
+  text-align: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.atomicNumber {
+  font-size: small;
+  padding: 3px;
+}
+
+.symbol {
+  font-weight: bold;
+  padding: 3px;
+}
+
+.name {
+  font-size: small;
+  padding: 3px;
+}
+
+.chemicalGroup {
+  font-size: small;
+  padding: 3px;
+}
+
+.hideBox {
+  visibility: collapse;
+}
+
+.asterisk {
+  border: none;
+  align-self: center;
+  padding: 1px;
+}
+
+/* Colors */
+
+.nonmetal {
+  background: linear-gradient(110deg, #ffff0033, #ffff004d);
+}
+
+.alkaliMetal {
+  background: linear-gradient(110deg, #ff000033, #ff000040);
+}
+
+.alkalineEarthMetal {
+  background: linear-gradient(110deg, #4040ff33, #4040ff40);
+}
+
+.transitionMetal {
+  background: linear-gradient(110deg, #0080ff33, #0080ff4d);
+}
+
+.metalloid {
+  background: linear-gradient(110deg, #8cbe0033, #8cbe004d);
+}
+
+.halogen {
+  background: linear-gradient(110deg, #ffff0033, #ffff004d);
+}
+
+.nobleGas {
+  background: linear-gradient(110deg, #ff980033, #ff98004d);
+}
+
+.postTransitionMetal {
+  background: linear-gradient(110deg, #00ff0033, #00ff004d);
+}
+
+.lanthanide {
+  background: linear-gradient(110deg, #00ffff40, #00ffff59);
+}
+
+.actinide {
+  background: linear-gradient(110deg, #40ffc040, #40ffc059);
+}
+
+/* Media query in case the screen pass down of 1000px */
+@media screen and (max-width: 1000px) {
+  .name {
+    display: none;
+  }
+  .chemicalGroup {
+    display: none;
+  }
+}
