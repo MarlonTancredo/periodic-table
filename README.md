@@ -1,6 +1,6 @@
 ### Project
 
-![Alt text](/periodic-table/img/project.png"Periodic-table")
+![Alt text](./img/project.png"Periodic-table")
 
 # Periodic table
 
